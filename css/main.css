@@ -1,0 +1,132 @@
+body {
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.margin__deleter {
+  margin-bottom: 0 !important; }
+
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-color: #ff0057;
+  box-shadow: none; }
+
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label {
+  color: #ff0057 !important; }
+
+.right__area {
+  background-image: url("/src/file.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative; }
+
+.arome__navbar {
+  overflow: hidden; }
+
+.aroma__navbar a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold; }
+
+.aroma__navbar a:first-child {
+  padding-right: 50px; }
+
+.right__area__image {
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25vh; }
+
+.right__area__button__one {
+  padding: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 100px;
+  background: none;
+  border: 1px rgba(255, 255, 255, 0.5) solid;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  right: 150px;
+  cursor: pointer; }
+
+.right__area__button__two {
+  padding: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 100px;
+  background: #5c7067;
+  border: 1px rgba(255, 255, 255, 0.5) solid;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  cursor: pointer; }
+
+.play__button {
+  background: #ff0057;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  padding-top: 18px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 200px;
+  left: -30px;
+  z-index: 9999;
+  cursor: pointer; }
+
+.login__button {
+  padding: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 100px;
+  background: black;
+  border: 1px rgba(255, 255, 255, 0.5) solid;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  cursor: pointer; }
+
+.signup__button {
+  margin-left: 15px;
+  padding: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 100px;
+  background: none;
+  border: 1px rgba(128, 128, 128, 0.5) solid;
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: bold;
+  color: grey;
+  cursor: pointer; }
+
+/*# sourceMappingURL=main.css.map */
